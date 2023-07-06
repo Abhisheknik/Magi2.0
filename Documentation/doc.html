@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Technical Documentation Page</title>
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <nav id="navbar">
+            <header>I-MAG Documentation</header>
+            <a class="nav-link" href="#Introduction">Introduction</a>
+            <a class="nav-link" href="#Overview">Overview</a>
+            <a class="nav-link" href="#Key_Concepts">Key Concepts</a>
+            <a class="nav-link" href="#Working">Working</a>
+            <a class="nav-link" href="#Libraries">Libraries</a>
+            <a class="nav-link" href="#Images">Images</a>
+            <a class="nav-link" href="#Models">Models</a>
+            <a class="nav-link" href="#Tutorials">Tutorials</a>
+            <a class="nav-link" href="#Policies">Policies</a>
+         
+        </nav>
+        <main id="main-doc">
+            <section class="main-section" id="Introduction">
+                <header>Introduction</header>
+                <article>
+                    <p>The ability to generate visual content from textual descriptions has long been a subject of fascination and scientific inquiry.With the rapid progress in deep learning and natural language processing, text-to-image generation has emerged as a captivating research field, offering the potential to bridge the gap between language and visual perception.</p>
+                    <p>This intersection of artificial intelligence and computer vision has opened up new avenues for a wide range of applications, including virtual reality, multimedia content creation, and visual storytelling.</p>
+                    <ul>
+                        <li>1. Content Creation: Text-to-image generators find applications in graphic design, advertising, and multimedia content creation. They assist in automating the initial stages of visual ideation, generating image concepts based on textual specifications, and providing a starting point for designers to further refine and iterate upon</li>
+                        <li>2. Visual Storytelling and Gaming: Text-to-image generators can be utilized in interactive storytelling, gaming, and character customization. By providing textual prompts or descriptions, users can generate corresponding images or avatars, enabling a more personalized and engaging narrative experience.</li>
+                    </ul>
+                </article>
+            </section>
+      
+            <section class="main-section" id="Overview">
+                <header>Overview</header>
+                <h3>DALL-E and I-MAG</h3>
+                <article>
+                    <p>DALL-E and I-MAG are similer in some ways but fundamentally different in some others. To use DALL-E you have to purchase its credits, but in the case of I-MAG you can generate free images just entering prompts.</p>
+                    <p>DALL-E: DALL-E is an image generation model created by OpenAI. It is based on the GPT-3 architecture and is trained to generate high-quality images from textual descriptions. DALL-E can take a textual prompt as input and generate a corresponding image as output. It has been trained on a large dataset of text-image pairs, allowing it to learn the relationship between different concepts and their visual representations.</p>
+                    <p>I-MAG : I-MAG is an AI-powered design assistant developed by Engineering Students. It is designed to assist users in creating and refining their design concepts. I-MAG combines natural language processing (NLP) with image recognition and generation capabilities to understand user inputs and provide relevant design suggestions. It can generate design elements, such as color palettes, typography suggestions, and layout ideas, based on user preferences and requirements.</p>
+                </article>
+            </section>
+            <section class="main-section" id="Key_Concepts">
+                <header>Key Concepts</header>
+                <article>
+                    <ul>
+                        <li>Design Generation: I-MAG is capable of generating design elements based on user inputs and requirements. It can generate color palettes, typography suggestions, layout ideas, and other visual design components to help users visualize their concepts.</li>
+                        <li>Creative Suggestions:I-MAG provides creative suggestions to users to enhance their design concepts. It leverages its understanding of design principles and trends to offer recommendations on how to improve the overall aesthetics and effectiveness of the design</li>
+                        <li>Image Recognition: I-MAG incorporates image recognition capabilities to analyze and understand visual content. It can recognize objects, patterns, and styles in images, enabling it to provide more contextually relevant design suggestions.</li>
+                    </ul>
+                </article>
+            </section>
+            <section class="main-section" id="Working">
+                <header>Working</header>
+                <article>
+                    <p>Image Generation: Once the textual prompt is encoded, I-MAG decodes it to generate an image that corresponds to the input. The model uses its learned knowledge from training to create an image that matches the given textual description. The generated image can exhibit unique and creative visual elements based on the prompt and the model's understanding of the text-image relationship.</p>
+                    <p>Image Recognition and Analysis: I-MAG incorporates image recognition capabilities to analyze visual content. It can recognize objects, patterns, and styles in images, allowing it to provide more contextually relevant design recommendations. By analyzing images related to the design project or user preferences, I-MAG gains additional insights to support its suggestions.</p>
+                    
+                </article>
+            </section>
+            <section class="main-section" id="Libraries">
+                <header>Libraries</header>
+                <article>
+                    <p>We are using the openai libraries</p>
+                    <p>
+                        To use just type below code in terminal and hit enter.<br>
+                        <code>$ pip install openai</code><br>
+                        Once installed, you can use the bindings and your secret key to run the following:
+                    </p>
+                    <p>
+                        
+                        <code>import os<br>
+                              import openai<br>
+                            <br>
+                            # Load your API key from an environment variable or secret management service<br>
+                            openai.api_key = os.getenv("OPENAI_API_KEY")<br>
+                            <br>
+                            chat_completion = openai.ChatCompletion.create(model="gpt-3.5-turbo", messages=[{"role": "user", "content": "Hello world"}])</code><br>
+                       
+                    </p>
+                    <p>
+                        The bindings also will install a command-line utility you can use as follows:<br>
+                        <code>$ openai api chat_completions.create -m gpt-3.5-turbo -g user "Hello world"</code><br>
+
+                    </p>
+                    <header>Start Server Commands</header>
+                    <p>
+                    <code>$cd server</code>
+                    <code>$npm run start</code>
+                    </p>
+                </article>
+            </section>
+
+            <section class="main-section" id="Images">
+                <header>Images</header>
+                <article>
+                    <img  src="./assets/Screenshot 2023-07-05 104710.png"></img>
+                    <img  src="./assets/Screenshot 2023-07-05 104752.png"></img>
+                    <img  src="./assets/Screenshot 2023-07-05 104848.png"></img>
+                    <img  src="./assets/Screenshot 2023-07-05 105043.png"></img>
+                    <img  src="./assets/Screenshot 2023-07-05 105032.png"></img>
+                    <img  src="./assets/Screenshot 2023-07-05 111748.png"></img>
+                </article>
+            </section>
+
+            <section class="main-section" id="Models">
+                <header>Models</header>
+                <article>
+                    <p>Comming Soon....</p>
+                </article>
+            </section>
+            <section class="main-section" id="Tutorials">
+                <header>Tutorials</header>
+                <article>
+                    <p>Get started with the OpenAI API by building real AI apps step by step.</p>
+                </article>
+            </section>
+            <section class="main-section" id="Policies">
+                <header>Policies</header>
+                <article>
+                   
+                </article>
+            </section>
+             </main>
+    </body>
+</html>

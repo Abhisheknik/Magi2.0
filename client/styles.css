@@ -1,0 +1,60 @@
+body {
+  background-image: linear-gradient(to right, #8860d0, #5ab9ea, #c1c8e4);
+  color: black;
+}
+
+.container .card-body .row {
+  display: flex;
+  color: black;
+}
+
+.card-body {
+  flex: 1 1 auto;
+  padding: 1rem 1rem;
+  background-image: linear-gradient(to right, #8860d0, #5ab9ea, #c1c8e4); 
+  margin: 0 auto;
+  /* background-color: #fff; */
+  border-radius: 20px;
+  color: black;
+  padding: 20px;
+
+}
+
+.btn-danger {
+  color: black;
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.drawing-area {
+  position: absolute;
+  top: 60px;
+  left: 122px;
+  z-index: 10;
+  width: 200px;
+  height: 400px;
+}
+
+.canvas-container {
+  width: 200px;
+  height: 400px;
+  position: relative;
+  user-select: none;
+}
+
+#tshirt-div {
+  width: 452px;
+  height: 548px;
+  position: relative;
+  /* background-image: linear-gradient(to bottom right, #0a0216, #000000);  */
+}
+
+#canvas {
+  position: absolute;
+  width: 200px;
+  height: 400px;
+  left: 0px;
+  top: 0px;
+  user-select: none;
+  cursor: default;
+}

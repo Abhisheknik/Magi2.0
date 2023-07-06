@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="/Home_page/img/favicon-32x32.png">
+    <title>I-MAG</title>
+    <!-- ==== STYLE.CSS ==== -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- ====  REMIXICON CDN ==== -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script> 
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script> 
+    <!-- ==== ANIMATE ON SCROLL CSS CDN  ==== -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- ==== HEADER ==== -->
+    <header class="container header">
+        <!-- ==== NAVBAR ==== -->
+        <nav class="nav">
+            <div class="logo">
+                <h2>I-MAG</h2>
+            </div>
+            <div class="nav_menu" id="nav_menu">
+                <button class="close_btn" id="close_btn">
+                        <i class="ri-close-fill"></i>
+                    </button>
+                <ul class="nav_menu_list">
+                    <li class="nav_menu_item">
+                        <a href="#" class="nav_menu_link">Home</a>
+                    </li>
+                    <li class="nav_menu_item">
+                        <a href="/ContactUs/contact.html" class="nav_menu_link">about</a>
+                    </li>
+                    <li class="nav_menu_item">
+                        <a href="/client/home.html" class="nav_menu_link">T-Shirts</a>
+                    </li>
+                    <li class="nav_menu_item">
+                        <a href="/Documentation/doc.html" class="nav_menu_link">Documentation</a>
+                    </li>
+                    
+                </ul>
+            </div>
+            <button class="toggle_btn" id="toggle_btn">
+                    <i class="ri-menu-line"></i>
+                </button>
+        </nav>
+    </header>
+    <section class="wrapper">
+        <div class="container">
+            <div class="grid-cols-2">
+                <div class="grid-item-1">
+                    <h1 class="main-heading">
+                        AI
+                        <span style="font-weight: bold;">Image Generator.</span>
+                        <br> Create Anything.
+                    </h1>
+                    <p class="info-text">
+                        <span style="font-weight: bold;">Prompt:</span>
+                        <br> Human turing to Ai robot becoming a cybrog.
+                    </p>
+                    <div class="btn_wrapper">
+                        <button class="btn view_more_btn" onclick="window.location.href = '/client/main.html'">
+                                Generator
+                                <i class="ri-arrow-right-line"></i>
+                            </button>
+                        <button class="btn documentation_btn" onclick="window.location.href='/Home_page/Login/login.html'">Login</button>
+                    </div>
+                </div>
+                <div class="grid-item-2">
+                    <div class="team_img_wrapper">
+                        <img src="./img/image-1.png" alt="team-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="wrapper">
+        <div class="container" data-aos="fade-up" data-aos-duration="1000">
+            <div class="grid-cols-3">
+                <div class="grid-col-item">
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                                />
+                            </svg>
+                    </div>
+                    <div class="featured_info">
+                        <span>Built for Desginers</span>
+                        <p>
+                            Designers often start with rough ideas and concepts before creating detailed designs. AI image generators can help designers visualize their initial ideas by transforming textual descriptions into visual representations. By inputting textual prompts, designers can quickly generate a range of images that inspire and inform their creative process..
+                        </p>
+                    </div>
+                </div>
+                <div class="grid-col-item">
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M17 14v6m-3-3h6M6 10h2a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v2a2 2 0 002 2zm10 0h2a2 2 0 002-2V6a2 2 0 00-2-2h-2a2 2 0 00-2 2v2a2 2 0 002 2zM6 20h2a2 2 0 002-2v-2a2 2 0 00-2-2H6a2 2 0 00-2 2v2a2 2 0 002 2z"
+                                />
+                            </svg>
+                    </div>
+                    <div class="featured_info">
+                        <span>Designed to be modern</span>
+                        <p>
+                            Once you've entered the description, initiate the image generation process. The AI model will analyze the text and generate an image that corresponds to your input. The time it takes to generate an image can vary depending on the complexity of the model and the computational resources available.
+                        </p>
+                    </div>
+                </div>
+                <div class="grid-col-item">
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
+                                />
+                            </svg>
+                    </div>
+                    <div class="featured_info">
+                        <span>Innovation </span>
+                        <p>
+                            Rather than replacing human creativity, AI image generators can act as tools that augment and enhance human design capabilities. Designers can leverage AI-generated images as a source of inspiration, integrating them with their own creative insights and expertise to create unique and original designs.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="wrapper-gallery">
+        <div class="container" data-aos="fade-up" data-aos-duration="1000">
+            <h1 class="gallery" style="text-align: center;">Gallery</h1>
+            <div class="grid-container">
+                <div class="grid-item one">
+                    <img src="./img/ai-image (1).png" alt="Image 1">
+                    <div class="overlay">
+                        <p>Horse eating banana</p>
+                    </div>
+                </div>
+                <div class="grid-item two">
+                    <img src="./img/ai-image (2).png" alt="Image 1">
+                    <div class="overlay">
+                        <p>astronut riding a horse in space</p>
+                    </div>
+                </div>
+                <div class="grid-item thre">
+                    <img src="./img/ai-image (3).png" alt="Image 1">
+                    <div class="overlay">
+                        <p>cartoon dog riding a dog</p>
+                    </div>
+                </div>
+                <div class="grid-item four">
+                    <img src="./img/ai-image (4).png" alt="Image 1">
+                    <div class="overlay">
+                        <p>man taking a earth photo from moon</p>
+                    </div>
+                </div>
+                <div class="grid-item five">
+                    <img src="./img/ai-image (6).png" alt="Image 1">
+                    <div class="overlay">
+                        <p>Dog marry a cat in cartoon</p>
+                    </div>
+                </div>
+                <div class="grid-item six">
+                    <img src="./img/ai-image (7).png" alt="Image 1">
+                    <div class="overlay">
+                        <p>Futurestic ai robot</p>
+                    </div>
+                </div>
+                <div class="grid-item seven">
+                    <img src="./img/ai-image-8.png" alt="Image 1">
+                    <div class="overlay">
+                        <p>3d model of ballon horse </p>
+                    </div>
+                </div>
+                <div class="grid-item eight">
+                    <img src="./img/ai-image (19).png" alt="Image 1">
+                    <div class="overlay">
+                        <p>apple eating a parrot</p>
+                    </div>
+                </div>
+                <div class="grid-item nine">
+                    <img src="./img/ai-image (20).png" alt="Image 1">
+                    <div class="overlay">
+                        <p>cat eating a hotdog</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer></footer>
+    <!-- ==== ANIMATE ON SCROLL JS CDN -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- ==== GSAP CDN ==== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <!-- ==== SCRIPT.JS ==== -->
+    <script src="./script.js" defer></script>
+    <script src="/Login/index.js" defer></script>
+    
+
+</body>
+
+</html>

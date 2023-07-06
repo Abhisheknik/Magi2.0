@@ -1,0 +1,11 @@
+Model Information:
+* title:	Melee Robot t-pose Brawl Stars
+* source:	https://sketchfab.com/3d-models/melee-robot-t-pose-brawl-stars-eeef52769a084d44bade1aa48b084a10
+* author:	shertiku (https://sketchfab.com/shertiku)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Melee Robot t-pose Brawl Stars" (https://sketchfab.com/3d-models/melee-robot-t-pose-brawl-stars-eeef52769a084d44bade1aa48b084a10) by shertiku (https://sketchfab.com/shertiku) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

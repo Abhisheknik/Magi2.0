@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prompt</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <section class="wrapper">
+        <div class="container">
+            <div class="grid-cols-2">
+                <div class="grid-item-1">
+                    <h1>
+                        <span class="gojo"></span> Image Generator
+                    </h1>
+                    <div class="content">
+                        <div class="image-container">
+                            <img src="https://loremflickr.com/320/240/robot" class="generated-image" alt="">
+                        </div>
+                        <label for="Speech Recognition"></label>
+
+                        <input type="text" class="prompt-input" id="speechToText"  placeholder="Enter your prompt here..." onclick=record()>
+                        <button class="generate-btn">Generate Image</button>
+                    </div>
+                    <!-- <a href="https://loremflickr.com/320/240" download="ai-image.png" class="download-btn"></a> -->
+                    <a href="images/image-placeholder.png" download="ai-image.png" class="download-btn">
+                        <button class="btn">
+                    
+                            <i class="fa fa-download"></i>
+                            Download
+                        </button></a>
+
+                </div>
+                <div class="grid-item-2">
+                    <aside>
+                        <ul>
+                            <h1>Recent</h1>
+                        </ul>
+                        <table class="recent-img">
+                            <table class="image-grid">
+                                <tr>
+                                    <td>
+                                        <img id="recentGeneratedImage" class="recent-image-display" alt="">
+                                    </td>
+                                </tr>
+                            </table>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        function record(){
+            var recognition = new webkitSpeechRecognition();
+            recognition.lang='en-GB';
+
+
+            recognition.onresult=function(event){
+                console.log(event);
+                document.getElementById('speechToText').value=event.results[0][0].transcript;
+            }
+
+            recognition.start();
+        }
+
+      
+    </script>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
