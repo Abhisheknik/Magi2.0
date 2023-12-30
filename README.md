@@ -38,13 +38,13 @@ Welcome to our cutting-edge AI Image Generator project! This application empower
 We welcome contributions to enhance and expand the capabilities of our AI Image Generator. Feel free to submit pull requests and report issues.
 
 ## Contributors
-1.Abhishek Nikam
+1. Abhishek Nikam
 <br>
-2.Bhagwatilal Joshi
+2. Bhagwatilal Joshi
 <br>
-3.Prafful Vishwakarma
+3. Prafful Vishwakarma
 <br>
-4.Harshal Bhoye
+4. Harshal Bhoye
 <br>
 
 ## License:
