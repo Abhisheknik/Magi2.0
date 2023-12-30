@@ -37,6 +37,12 @@ Welcome to our cutting-edge AI Image Generator project! This application empower
 
 We welcome contributions to enhance and expand the capabilities of our AI Image Generator. Feel free to submit pull requests and report issues.
 
+## Contributors
+1.Abhishek Nikam
+2.Bhagwatilal Joshi
+3.Prafful Vishwakarma
+4.Harshal Bhoye
+
 ## License:
 
 This project is licensed under the [MIT License](LICENSE).
