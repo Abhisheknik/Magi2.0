@@ -39,9 +39,13 @@ We welcome contributions to enhance and expand the capabilities of our AI Image 
 
 ## Contributors
 1.Abhishek Nikam
+<br>
 2.Bhagwatilal Joshi
+<br>
 3.Prafful Vishwakarma
+<br>
 4.Harshal Bhoye
+<br>
 
 ## License:
 
